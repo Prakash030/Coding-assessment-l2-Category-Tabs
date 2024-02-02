@@ -5,7 +5,7 @@
 Take a moment to review the project structure:
 
         project-root/
-        |-- assests/
+        |-- assets/
           |-- dot.svg
           |-- men.svg
           |-- women.svg
