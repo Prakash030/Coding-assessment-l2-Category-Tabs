@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <!-- REPLACE THIS WITH YOUR PROJECT NAME. EXAMPLE - Category tabs -->
+    <title>Category Tabs</title>
+
+</head>
+
+<body>
+    <!-- Your code goes here -->
+    <div class="container">
+        <div class="head">
+            <h1>Select Your Choice</h1>
+        </div>
+        <div class="tabHead">
+            <button class="tablinks active" id="men" onclick="showCategory('Men')"><img class="img" id="men-img" src="./assets/men.svg"/>Men</button>
+            <button class="tablinks active" id="women" onclick="showCategory('Women')"><img class="img" id="women-img" src="./assets/women.svg"/>Women</button>
+            <button class="tablinks active" id="kid" onclick="showCategory('Kids')"><img class="img" id="kid-img" src="./assets/kids.svg"/>Kids</button>
+        </div>
+        <div class="products" id="productContainer">
+            <!-- Products will be dynamically inserted here -->
+          </div>
+    </div>
+    <!-- Happy coding 😊 -->
+    <script src="./script.js"></script>
+</body>
+
+</html>
